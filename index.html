@@ -972,27 +972,33 @@
             <h2 class="text-center">Galeri Foto</h2>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="gallery__foto">
-                        <img src="assets/img/gallery/1.png" alt="">
-                    </div>
-                    <div class="gallery__name">
-                        5 Destinasi Super Prioritas
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="gallery__foto">
-                        <img src="assets/img/gallery/2.png" alt="">
-                    </div>
-                    <div class="gallery__name">
-                        10 Bali Baru
+                    <div class="gallery-modal" data-toggle="modal" data-target="#modalGallery" data-content="0">
+                        <div class="gallery__foto">
+                            <img src="assets/img/gallery/1.png" alt="">
+                        </div>
+                        <div class="gallery__name">
+                            5 Destinasi Super Prioritas
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="gallery__foto">
-                        <img src="assets/img/gallery/3.png" alt="">
+                    <div class="gallery-modal" data-toggle="modal" data-target="#modalGallery2" data-content="1">
+                        <div class="gallery__foto">
+                            <img src="assets/img/gallery/2.png" alt="">
+                        </div>
+                        <div class="gallery__name">
+                            10 Bali Baru
+                        </div>
                     </div>
-                    <div class="gallery__name">
-                        Foto dari Wonderful indonesia
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-modal" data-toggle="modal" data-target="#modalGallery3" data-content="2">
+                        <div class="gallery__foto">
+                            <img src="assets/img/gallery/3.png" alt="">
+                        </div>
+                        <div class="gallery__name">
+                            Foto dari Wonderful indonesia
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1040,6 +1046,144 @@
                     ...
                 </div>
 
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- modal profil hardcode-->
+<section class="modal-gallery">
+    <div class="modal fade" id="modalGallery" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-close" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></div>
+                <div class="slider-for">
+                    <div class="height-big"><img src="assets/img/gallery/modal/1big1.png" alt="">
+                        <p>Borobudur Temple Java, Indonesia , oldest Buddhist monument in the world <br> (Shutterstock/Adel Newman)</p>
+                    </div>
+                    <div class="height-big"><img src="assets/img/gallery/modal/1big2.png" alt="">
+                        <p>Grainy and noisy photo of volcano Lake Toba (Danau Toba) or Toba Lake in the morning . one of the biggest lake in the world , located in North Sumatera, Indonesia <br> (Shutterstock/PLOO Galary)</p>
+                    </div>
+                    <div class="height-big"><img src="assets/img/gallery/modal/1big3.png" alt="">
+                        <p>Pulisan Beach With Model View <br> (Shutterstock/Molds Moment)</p>
+                    </div>
+                    <div class="height-big"><img src="assets/img/gallery/modal/1big4.png" alt="">
+                        <p>
+                            Scenery from the top of Merese Hill, Lombok, West Nusa Tenggara on August 18, 2018. Merese Hill is a mainstay tourist attraction in Mandalika, Central Lombok, West Nusa Tenggara. <br> (Shutterstock/Yonn Gro)
+                        </p>
+                    </div>
+                    <div class="height-big"><img src="assets/img/gallery/modal/largeBali6.png" alt="">
+                        <p>
+                            Landscape view from the top of Padar island in Komodo islands, Flores, Indonesia. <br> (Shutterstock/Donnchans)
+                        </p>
+                    </div>
+                </div>
+                <div class="slider-nav">
+                    <div class="height-small"><img src="assets/img/gallery/modal/1small1.png" alt=""></div>
+                    <div class="height-small"><img src="assets/img/gallery/modal/1small2.png" alt=""></div>
+                    <div class="height-small"><img src="assets/img/gallery/modal/1small3.png" alt=""></div>
+                    <div class="height-small"><img src="assets/img/gallery/modal/1small4.png" alt=""></div>
+                    <div class="height-small"><img src="assets/img/gallery/modal/smallBali6.png" alt=""></div>
+                </div>
+                <!-- <div class="modal-body">
+                </div> -->
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="modal-gallery">
+    <div class="modal fade" id="modalGallery2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-close" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></div>
+                <div class="slider-for">
+                    <div class="height-big"><img src="assets/img/gallery/modal/largeBali1.png" alt="">
+                        <p>Grainy and noisy photo of volcano Lake Toba (Danau Toba) or Toba Lake in the morning. One of the biggest lake in the world , located in North Sumatera, Indonesia (Shutterstock/PLOO Galary)</p>
+                    </div>
+                    <div class="height-big"><img src="assets/img/gallery/modal/largeBali2.png" alt="">
+                        <p>One of the famous beach in Belitong Island, Indonesia. Beautiful beach with white sandy, rock and clear water (Shutterstock/Rudi Golden)</p>
+                    </div>
+                    <div class="height-big"><img src="assets/img/gallery/modal/largeBali3.png" alt="">
+                        <p>One of the famous beach in Belitong Island, Indonesia. Beautiful beach with white sandy, rock and clear water (Shutterstock/Rudi Golden)</p>
+                    </div>
+                    <div class="height-big"><img src="assets/img/gallery/modal/largeBali4.png" alt="">
+                        <p>CIRCA 2010 Model Released scuba divers at Tukang Besi Marine Preserve, pristine reefs near Wakatobi Diver Resort, South Sulaweso, Indonesia, S.E. Asia (Shutterstock/Danita Delimont)</p>
+                    </div>
+                    <div class="height-big"><img src="assets/img/gallery/modal/largeBali5.png" alt="">
+                        <p>Underwater Morotai, North Maluku Indonesia. photo was taken 5/16/2017 (Shutterstock/Mancil Harsoyo)</p>
+                    </div>
+                    <div class="height-big"><img src="assets/img/gallery/modal/largeBali6.png" alt="">
+                        <p>Landscape view from the top of Padar island in Komodo islands, Flores, Indonesia. (Shutterstock/Donnchans)
+                        </p>
+                    </div>
+                    <div class="height-big"><img src="assets/img/gallery/modal/largeBali7.png" alt="">
+                        <p>Kepulauan Seribu, Indonesia, August 2013 (Shutterstock/Bangun Wijayanti)</p>
+                    </div>
+                    <div class="height-big"><img src="assets/img/gallery/modal/largeBali8.png" alt="">
+                        <p>The Milky Way is a large spiral galaxy with a total mass around the sun's mass, which has billions of stars with a diameter of 100,000 light years and a thickness of 1000 light years. The distance bet (Shutterstock/Arifbello19)
+                        </p>
+                    </div>
+                    <div class="height-big"><img src="assets/img/gallery/modal/largeBali9.png" alt="">
+                        <p>Borobudur - Yuliandi Kusuma.</p>
+                    </div>
+                    <div class="height-big"><img src="assets/img/gallery/modal/largeBali10.png" alt="">
+                        <p>Bromo Tengger Semeru national park. Java. Indonesia (Shutterstock/Khoroshunova Olga)</p>
+                    </div>
+                </div>
+                <div class="slider-nav">
+                    <div class="height-small"><img src="assets/img/gallery/modal/smallBali1.png" alt=""></div>
+                    <div class="height-small"><img src="assets/img/gallery/modal/smallBali2.png" alt=""></div>
+                    <div class="height-small"><img src="assets/img/gallery/modal/smallBali3.png" alt=""></div>
+                    <div class="height-small"><img src="assets/img/gallery/modal/smallBali4.png" alt=""></div>
+                    <div class="height-small"><img src="assets/img/gallery/modal/smallBali5.png" alt=""></div>
+                    <div class="height-small"><img src="assets/img/gallery/modal/smallBali6.png" alt=""></div>
+                    <div class="height-small"><img src="assets/img/gallery/modal/smallBali7.png" alt=""></div>
+                    <div class="height-small"><img src="assets/img/gallery/modal/smallBali8.png" alt=""></div>
+                    <div class="height-small"><img src="assets/img/gallery/modal/smallBali9.png" alt=""></div>
+                    <div class="height-small"><img src="assets/img/gallery/modal/smallBali10.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="modal-gallery">
+    <div class="modal fade" id="modalGallery3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-close" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></div>
+                <div class="slider-for">
+                    <div class="height-big"><img src="assets/img/gallery/modal/largeBali6.png" alt="">
+                        <p>Landscape view from the top of Padar island in Komodo islands, Flores, Indonesia. <br> (Shutterstock/Donnchans)
+                        </p>
+                    </div>
+                    <div class="height-big"><img src="assets/img/gallery/modal/largeBali7.png" alt="">
+                        <p>Kepulauan Seribu, Indonesia, August 2013 <br> (Shutterstock/Bangun Wijayanti)</p>
+                    </div>
+                    <div class="height-big"><img src="assets/img/gallery/modal/largeBali8.png" alt="">
+                        <p>The Milky Way is a large spiral galaxy with a total mass around the sun's mass, which has billions of stars with a diameter of 100,000 light years and a thickness of 1000 light years. The distance bet <br> (Shutterstock/Arifbello19)
+                        </p>
+                    </div>
+                    <div class="height-big"><img src="assets/img/gallery/modal/largeBali9.png" alt="">
+                        <p>
+                            Borobudur - Yuliandi Kusuma.
+                        </p>
+                    </div>
+                    <div class="height-big"><img src="assets/img/gallery/modal/largeBali10.png" alt="">
+                        <p>
+                            Bromo Tengger Semeru national park. Java. Indonesia <br>(Shutterstock/Khoroshunova Olga)
+                        </p>
+                    </div>
+                </div>
+                <div class="slider-nav">
+                    <div class="height-small"><img src="assets/img/gallery/modal/smallBali6.png" alt=""></div>
+                    <div class="height-small"><img src="assets/img/gallery/modal/smallBali7.png" alt=""></div>
+                    <div class="height-small"><img src="assets/img/gallery/modal/smallBali8.png" alt=""></div>
+                    <div class="height-small"><img src="assets/img/gallery/modal/smallBali9.png" alt=""></div>
+                    <div class="height-small"><img src="assets/img/gallery/modal/smallBali10.png" alt=""></div>
+                </div>
             </div>
         </div>
     </div>
@@ -1107,6 +1251,7 @@
      <script src="assets/js/helper/timeline-data.js"></script>
      <script src="assets/js/helper/profil-data.js"></script>
      <script src="assets/js/helper/general.js"></script>
+     <script src="assets/js/helper/gallery.js"></script>
      
 
     <script src="https://wowjs.uk/dist/wow.min.js"></script>
